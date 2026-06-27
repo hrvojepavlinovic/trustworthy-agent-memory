@@ -7,10 +7,13 @@
 - [ ] Write `stale-context-is-a-production-risk`.
 - [ ] Write `permissions-are-part-of-memory`.
 - [ ] Write `evals-for-agent-context`.
+- [ ] Answer `what is inference?` in simple terms.
 
 ## Reading List
 
 - [ ] Map existing AI memory approaches in Claude, ChatGPT, Cursor, Codex, and Copilot.
+- [ ] Research how popular providers implement context and memory systems.
+- [ ] Research popular external memory systems, including newer database types.
 - [ ] Collect papers and posts on agent memory, retrieval, provenance, and tool use.
 - [ ] Compare how current tools handle project instructions and long-lived context.
 - [ ] Track failure modes from real software workflows.
