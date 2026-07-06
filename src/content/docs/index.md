@@ -19,6 +19,12 @@ The problem is simple to state and hard to solve:
 - [Which context is allowed to win?](./core/which-context-wins.md)
 - [Accountable context](./core/accountable-context.md)
 
+## Source
+
+This guide is maintained in public:
+
+- [View source on GitHub](https://github.com/hrvojepavlinovic/trustworthy-agent-memory)
+
 ## Principles
 
 - Memory without provenance is a liability.
