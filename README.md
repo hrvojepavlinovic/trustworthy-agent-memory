@@ -40,6 +40,10 @@ That includes:
 - Durable memory should be easy for humans to inspect and correct.
 - Claims about better agent behavior need evals, not vibes.
 
+## Notes
+
+- [Memory is not context](notes/memory-is-not-context.md)
+
 ## Status
 
 Early research notebook. Notes here will be curated manually as I learn, test, and build small experiments.
