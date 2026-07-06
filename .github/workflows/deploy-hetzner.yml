@@ -1,0 +1,84 @@
+name: Deploy to Hetzner
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-trustworthy-agent-memory-production
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 11.7.0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Check
+        run: pnpm check
+
+      - name: Build static site
+        run: pnpm build
+
+      - name: Configure SSH key
+        shell: bash
+        run: |
+          install -m 700 -d ~/.ssh
+          cat > ~/.ssh/id_ed25519 <<'EOF'
+          ${{ secrets.HETZNER_DEPLOY_KEY }}
+          EOF
+          chmod 600 ~/.ssh/id_ed25519
+          cat > ~/.ssh/known_hosts <<'EOF'
+          91.98.33.74 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJtEQGEnJjXGo63dmaqcN//112Rw6zIaMyX7uMsKdvHq
+          EOF
+
+      - name: Publish release
+        env:
+          REMOTE_USER: tendeploy
+          REMOTE_HOST: 91.98.33.74
+          APP_SLUG: trustworthy-agent-memory
+          KEEP_RELEASES: 5
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          release_id="$(date +%Y%m%d%H%M%S)-${GITHUB_SHA::7}"
+          remote_base="/var/www/apps/${APP_SLUG}"
+          remote_release="${remote_base}/releases/${release_id}"
+
+          ssh -i ~/.ssh/id_ed25519 -o BatchMode=yes -o IdentitiesOnly=yes "${REMOTE_USER}@${REMOTE_HOST}" \
+            "mkdir -p '${remote_base}/releases' '${remote_release}'"
+
+          rsync -a --delete \
+            -e "ssh -i ~/.ssh/id_ed25519 -o BatchMode=yes -o IdentitiesOnly=yes" \
+            dist/ "${REMOTE_USER}@${REMOTE_HOST}:${remote_release}/"
+
+          ssh -i ~/.ssh/id_ed25519 -o BatchMode=yes -o IdentitiesOnly=yes "${REMOTE_USER}@${REMOTE_HOST}" <<EOF
+          set -euo pipefail
+          ln -sfn '${remote_release}' '${remote_base}/current'
+          current_target="\$(readlink -f '${remote_base}/current')"
+          find '${remote_base}/releases' -mindepth 1 -maxdepth 1 -type d | sort -r | awk 'NR>${KEEP_RELEASES}' | while read -r old_release; do
+            if [ "\$old_release" != "\$current_target" ]; then
+              rm -rf "\$old_release"
+            fi
+          done
+          echo "Current release: \${current_target}"
+          EOF

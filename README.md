@@ -2,6 +2,10 @@
 
 A guide to memory and context layers for AI agents.
 
+Canonical site target: `https://guide.hills-lab.hr`
+
+Written by Hrvoje Pavlinovic. Maintained through [HILLS Lab](https://hills-lab.hr).
+
 The problem: how to make AI agents work with context that is accurate, current, permission-aware, and explainable enough for real software work.
 
 This is not about making a chatbot remember a few personal facts. It is about the operating layer around an agent: GitHub, Slack, Linear, Jira, Sentry, docs, incidents, deployments, decisions, permissions, provenance, and evals.
@@ -42,9 +46,18 @@ That includes:
 
 ## Notes
 
-- [Memory is not context](notes/memory-is-not-context.md)
-- [Which context is allowed to win?](notes/which-context-wins.md)
-- [Accountable context](notes/accountable-context.md)
+- [Memory is not context](src/content/docs/core/memory-is-not-context.md)
+- [Which context is allowed to win?](src/content/docs/core/which-context-wins.md)
+- [Accountable context](src/content/docs/core/accountable-context.md)
+
+## Development
+
+```sh
+pnpm install
+pnpm dev
+pnpm check
+pnpm build
+```
 
 ## Status
 

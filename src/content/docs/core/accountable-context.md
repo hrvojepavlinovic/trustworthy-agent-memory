@@ -1,4 +1,7 @@
-# Accountable context
+---
+title: Accountable context
+description: The useful layer is not memory, RAG, or MCP alone. It is source-backed, permission-aware, traceable context.
+---
 
 The useful direction in agent infrastructure is not bigger memory.
 

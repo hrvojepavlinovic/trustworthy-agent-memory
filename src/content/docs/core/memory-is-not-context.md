@@ -1,4 +1,7 @@
-# Memory is not context
+---
+title: Memory is not context
+description: Memory is durable state. Context is the working set for a task. Mixing them makes agents more confident, not more correct.
+---
 
 Memory is something an agent keeps.
 

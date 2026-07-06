@@ -1,4 +1,7 @@
-# Which context is allowed to win?
+---
+title: Which context is allowed to win?
+description: Retrieval is not enough. Agents need precedence rules when code, tickets, docs, incidents, policies, and memory disagree.
+---
 
 Most agent failures in software work will not look dramatic.
 
