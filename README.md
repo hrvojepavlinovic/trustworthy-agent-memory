@@ -1,8 +1,8 @@
-# Trustworthy Agent Memory
+# Trustworthy Agent Memory and Context
 
-A public research notebook by Hrvoje Pavlinovic.
+A guide to memory and context layers for AI agents.
 
-I am studying one problem: how to make AI agents work with context that is accurate, current, permission-aware, and explainable enough for real software work.
+The problem: how to make AI agents work with context that is accurate, current, permission-aware, and explainable enough for real software work.
 
 This is not about making a chatbot remember a few personal facts. It is about the operating layer around an agent: GitHub, Slack, Linear, Jira, Sentry, docs, incidents, deployments, decisions, permissions, provenance, and evals.
 
@@ -43,9 +43,11 @@ That includes:
 ## Notes
 
 - [Memory is not context](notes/memory-is-not-context.md)
+- [Which context is allowed to win?](notes/which-context-wins.md)
+- [Accountable context](notes/accountable-context.md)
 
 ## Status
 
-Early research notebook. Notes here will be curated manually as I learn, test, and build small experiments.
+Early guide. Notes here should stay small, direct, and source-aware.
 
 No license yet. Please do not treat this as reusable material without asking.

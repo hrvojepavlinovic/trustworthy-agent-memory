@@ -3,6 +3,8 @@
 ## Notes
 
 - [x] Write `memory-is-not-context`.
+- [x] Write `which-context-wins`.
+- [x] Write `accountable-context`.
 - [ ] Write `provenance-before-persistence`.
 - [ ] Write `stale-context-is-a-production-risk`.
 - [ ] Write `permissions-are-part-of-memory`.
@@ -14,7 +16,8 @@
 - [ ] Map how Claude, ChatGPT, Cursor, Codex, and Copilot expose memory, project context, connectors, and instructions.
 - [ ] Research how popular AI providers implement context and memory systems.
 - [ ] Research popular external memory systems, including newer database types.
-- [ ] Collect papers and posts on agent memory, retrieval, provenance, and tool use.
+- [x] Collect initial references on agent memory, retrieval, provenance, permissions, tool use, evals, and observability.
+- [ ] Add deeper papers and technical references.
 - [ ] Track failure modes from real software workflows.
 
 ## Experiments

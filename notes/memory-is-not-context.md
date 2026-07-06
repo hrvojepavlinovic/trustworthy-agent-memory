@@ -68,7 +68,7 @@ Context answers:
 - what is safe to use?
 - what does the agent need before acting?
 
-## My current rule
+## Rule
 
 Do not persist something just because it was useful once.
 
