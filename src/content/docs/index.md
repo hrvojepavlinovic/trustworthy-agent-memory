@@ -33,6 +33,7 @@ The problem is simple to state and hard to solve:
 - [Tool calling](/concepts/tool-calling/)
 - [Agent trace](/concepts/agent-trace/)
 - [GraphRAG](/concepts/graphrag/)
+- [Vector search vs full-text search vs graph traversal](/concepts/search-vs-traversal/)
 
 ## Principles
 

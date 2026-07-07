@@ -98,6 +98,10 @@ export default defineConfig({
               label: "GraphRAG",
               slug: "concepts/graphrag",
             },
+            {
+              label: "Search vs traversal",
+              slug: "concepts/search-vs-traversal",
+            },
           ],
         },
         {

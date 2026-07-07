@@ -20,7 +20,7 @@
 - [x] Explain `tool calling` in simple terms.
 - [x] Explain `agent trace` in simple terms.
 - [x] Explain `GraphRAG` in simple terms.
-- [ ] Explain `vector search` vs `full-text search` vs `graph traversal`.
+- [x] Explain `vector search` vs `full-text search` vs `graph traversal`.
 
 ## Research
 
