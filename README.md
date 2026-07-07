@@ -50,7 +50,7 @@ That includes:
 - [Which context is allowed to win?](src/content/docs/core/which-context-wins.md)
 - [Accountable context](src/content/docs/core/accountable-context.md)
 
-## Development
+## Local
 
 ```sh
 pnpm install
@@ -59,8 +59,8 @@ pnpm check
 pnpm build
 ```
 
-## Status
+`pnpm dev` runs the guide locally. `pnpm check` and `pnpm build` are the basic gates before pushing.
 
-Early guide. Notes here should stay small, direct, and source-aware.
+## Reuse
 
-No license yet. Please do not treat this as reusable material without asking.
+No license is published yet. Treat the text as copyrighted unless that changes.
