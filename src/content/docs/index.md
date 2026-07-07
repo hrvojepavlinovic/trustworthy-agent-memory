@@ -28,6 +28,7 @@ The problem is simple to state and hard to solve:
 - [Inference](/concepts/inference/)
 - [Eval harness](/concepts/eval-harness/)
 - [Embedding](/concepts/embedding/)
+- [Retrieval and reranking](/concepts/retrieval-and-reranking/)
 
 ## Principles
 

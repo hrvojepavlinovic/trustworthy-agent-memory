@@ -78,6 +78,10 @@ export default defineConfig({
               label: "Embedding",
               slug: "concepts/embedding",
             },
+            {
+              label: "Retrieval and reranking",
+              slug: "concepts/retrieval-and-reranking",
+            },
           ],
         },
         {
