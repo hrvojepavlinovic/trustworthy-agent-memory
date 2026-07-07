@@ -12,7 +12,7 @@
 
 ## Concepts To Explain
 
-- [ ] Explain `inference` in simple terms.
+- [x] Explain `inference` in simple terms.
 - [ ] Explain `eval harness` in simple terms.
 - [ ] Explain `embedding` in simple terms.
 - [ ] Explain `retrieval` and `reranking` in simple terms.

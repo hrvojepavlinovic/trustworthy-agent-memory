@@ -29,6 +29,10 @@ This guide is maintained in public:
 
 - [View source on GitHub](https://github.com/hrvojepavlinovic/trustworthy-agent-memory)
 
+## Concepts
+
+- [Inference](./concepts/inference.md)
+
 ## Principles
 
 - Memory without provenance is a liability.

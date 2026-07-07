@@ -59,6 +59,15 @@ export default defineConfig({
           items: [{ label: "Authorship", slug: "about" }],
         },
         {
+          label: "Concepts",
+          items: [
+            {
+              label: "Inference",
+              slug: "concepts/inference",
+            },
+          ],
+        },
+        {
           label: "Research",
           items: [
             {
