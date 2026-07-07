@@ -20,6 +20,7 @@ The problem is simple to state and hard to solve:
 - [Accountable context](./core/accountable-context.md)
 - [Provenance before persistence](./core/provenance-before-persistence.md)
 - [Stale context is a production risk](./core/stale-context-is-a-production-risk.md)
+- [Permissions are part of memory](./core/permissions-are-part-of-memory.md)
 
 ## Source
 

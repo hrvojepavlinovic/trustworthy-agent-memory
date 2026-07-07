@@ -44,6 +44,10 @@ export default defineConfig({
               label: "Stale context is a production risk",
               slug: "core/stale-context-is-a-production-risk",
             },
+            {
+              label: "Permissions are part of memory",
+              slug: "core/permissions-are-part-of-memory",
+            },
           ],
         },
         {

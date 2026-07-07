@@ -7,7 +7,7 @@
 - [x] Write `accountable-context`.
 - [x] Write `provenance-before-persistence`.
 - [x] Write `stale-context-is-a-production-risk`.
-- [ ] Write `permissions-are-part-of-memory`.
+- [x] Write `permissions-are-part-of-memory`.
 - [ ] Write `evals-for-agent-context`.
 
 ## Concepts To Explain
