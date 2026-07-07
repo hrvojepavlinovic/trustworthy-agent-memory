@@ -15,25 +15,19 @@ The problem is simple to state and hard to solve:
 
 ## Start here
 
-- [Memory is not context](./core/memory-is-not-context.md)
-- [Which context is allowed to win?](./core/which-context-wins.md)
-- [Accountable context](./core/accountable-context.md)
-- [Provenance before persistence](./core/provenance-before-persistence.md)
-- [Stale context is a production risk](./core/stale-context-is-a-production-risk.md)
-- [Permissions are part of memory](./core/permissions-are-part-of-memory.md)
-- [Evals for agent context](./core/evals-for-agent-context.md)
-
-## Source
-
-This guide is maintained in public:
-
-- [View source on GitHub](https://github.com/hrvojepavlinovic/trustworthy-agent-memory)
+- [Memory is not context](/core/memory-is-not-context/)
+- [Which context is allowed to win?](/core/which-context-wins/)
+- [Accountable context](/core/accountable-context/)
+- [Provenance before persistence](/core/provenance-before-persistence/)
+- [Stale context is a production risk](/core/stale-context-is-a-production-risk/)
+- [Permissions are part of memory](/core/permissions-are-part-of-memory/)
+- [Evals for agent context](/core/evals-for-agent-context/)
 
 ## Concepts
 
-- [Inference](./concepts/inference.md)
-- [Eval harness](./concepts/eval-harness.md)
-- [Embedding](./concepts/embedding.md)
+- [Inference](/concepts/inference/)
+- [Eval harness](/concepts/eval-harness/)
+- [Embedding](/concepts/embedding/)
 
 ## Principles
 
