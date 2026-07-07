@@ -9,7 +9,18 @@
 - [ ] Write `stale-context-is-a-production-risk`.
 - [ ] Write `permissions-are-part-of-memory`.
 - [ ] Write `evals-for-agent-context`.
-- [ ] Answer `what is inference?` in simple terms.
+
+## Concepts To Explain
+
+- [ ] Explain `inference` in simple terms.
+- [ ] Explain `eval harness` in simple terms.
+- [ ] Explain `embedding` in simple terms.
+- [ ] Explain `retrieval` and `reranking` in simple terms.
+- [ ] Explain `context window` in simple terms.
+- [ ] Explain `tool calling` in simple terms.
+- [ ] Explain `agent trace` in simple terms.
+- [ ] Explain `GraphRAG` in simple terms.
+- [ ] Explain `vector search` vs `full-text search` vs `graph traversal`.
 
 ## Research
 
@@ -17,6 +28,7 @@
 - [ ] Research how popular AI providers implement context and memory systems.
 - [ ] Research popular external memory systems, including newer database types.
 - [ ] Evaluate AI-native databases and memory stores such as HelixDB.
+- [x] Add initial HelixDB evaluation notes.
 - [x] Collect initial references on agent memory, retrieval, provenance, permissions, tool use, evals, and observability.
 - [ ] Add deeper papers and technical references.
 - [ ] Track failure modes from real software workflows.

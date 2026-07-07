@@ -46,6 +46,15 @@ export default defineConfig({
           label: "About",
           items: [{ label: "Authorship", slug: "about" }],
         },
+        {
+          label: "Research",
+          items: [
+            {
+              label: "HelixDB initial notes",
+              slug: "research/helixdb-initial-notes",
+            },
+          ],
+        },
       ],
     }),
   ],
