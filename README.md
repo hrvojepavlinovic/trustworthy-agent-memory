@@ -2,7 +2,7 @@
 
 A guide to memory and context layers for AI agents.
 
-Canonical site target: `https://guide.hills-lab.hr`
+Read the guide at [guide.hills-lab.hr](https://guide.hills-lab.hr).
 
 Written by Hrvoje Pavlinovic. Maintained through [HILLS Lab](https://hills-lab.hr).
 
