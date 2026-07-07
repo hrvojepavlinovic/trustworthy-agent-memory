@@ -16,6 +16,7 @@
 - [ ] Map how Claude, ChatGPT, Cursor, Codex, and Copilot expose memory, project context, connectors, and instructions.
 - [ ] Research how popular AI providers implement context and memory systems.
 - [ ] Research popular external memory systems, including newer database types.
+- [ ] Evaluate AI-native databases and memory stores such as HelixDB.
 - [x] Collect initial references on agent memory, retrieval, provenance, permissions, tool use, evals, and observability.
 - [ ] Add deeper papers and technical references.
 - [ ] Track failure modes from real software workflows.
