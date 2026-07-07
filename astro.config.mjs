@@ -48,6 +48,10 @@ export default defineConfig({
               label: "Permissions are part of memory",
               slug: "core/permissions-are-part-of-memory",
             },
+            {
+              label: "Evals for agent context",
+              slug: "core/evals-for-agent-context",
+            },
           ],
         },
         {

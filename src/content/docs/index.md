@@ -21,6 +21,7 @@ The problem is simple to state and hard to solve:
 - [Provenance before persistence](./core/provenance-before-persistence.md)
 - [Stale context is a production risk](./core/stale-context-is-a-production-risk.md)
 - [Permissions are part of memory](./core/permissions-are-part-of-memory.md)
+- [Evals for agent context](./core/evals-for-agent-context.md)
 
 ## Source
 

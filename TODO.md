@@ -8,7 +8,7 @@
 - [x] Write `provenance-before-persistence`.
 - [x] Write `stale-context-is-a-production-risk`.
 - [x] Write `permissions-are-part-of-memory`.
-- [ ] Write `evals-for-agent-context`.
+- [x] Write `evals-for-agent-context`.
 
 ## Concepts To Explain
 
