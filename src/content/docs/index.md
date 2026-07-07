@@ -19,6 +19,7 @@ The problem is simple to state and hard to solve:
 - [Which context is allowed to win?](./core/which-context-wins.md)
 - [Accountable context](./core/accountable-context.md)
 - [Provenance before persistence](./core/provenance-before-persistence.md)
+- [Stale context is a production risk](./core/stale-context-is-a-production-risk.md)
 
 ## Source
 

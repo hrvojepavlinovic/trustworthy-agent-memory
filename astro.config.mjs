@@ -40,6 +40,10 @@ export default defineConfig({
               label: "Provenance before persistence",
               slug: "core/provenance-before-persistence",
             },
+            {
+              label: "Stale context is a production risk",
+              slug: "core/stale-context-is-a-production-risk",
+            },
           ],
         },
         {
