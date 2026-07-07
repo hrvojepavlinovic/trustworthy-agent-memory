@@ -14,7 +14,7 @@
 
 - [x] Explain `inference` in simple terms.
 - [x] Explain `eval harness` in simple terms.
-- [ ] Explain `embedding` in simple terms.
+- [x] Explain `embedding` in simple terms.
 - [ ] Explain `retrieval` and `reranking` in simple terms.
 - [ ] Explain `context window` in simple terms.
 - [ ] Explain `tool calling` in simple terms.

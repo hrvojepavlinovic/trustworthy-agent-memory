@@ -69,6 +69,10 @@ export default defineConfig({
               label: "Eval harness",
               slug: "concepts/eval-harness",
             },
+            {
+              label: "Embedding",
+              slug: "concepts/embedding",
+            },
           ],
         },
         {
