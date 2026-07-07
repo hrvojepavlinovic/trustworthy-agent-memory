@@ -12,18 +12,9 @@ export default defineConfig({
         baseUrl:
           "https://github.com/hrvojepavlinovic/trustworthy-agent-memory/edit/main/",
       },
-      social: [
-        {
-          icon: "external",
-          label: "HILLS Lab",
-          href: "https://hills-lab.hr",
-        },
-        {
-          icon: "github",
-          label: "GitHub",
-          href: "https://github.com/hrvojepavlinovic/trustworthy-agent-memory",
-        },
-      ],
+      components: {
+        SocialIcons: "./src/components/SocialIcons.astro",
+      },
       sidebar: [
         {
           label: "Start Here",
