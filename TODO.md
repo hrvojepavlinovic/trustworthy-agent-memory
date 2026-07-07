@@ -5,7 +5,7 @@
 - [x] Write `memory-is-not-context`.
 - [x] Write `which-context-wins`.
 - [x] Write `accountable-context`.
-- [ ] Write `provenance-before-persistence`.
+- [x] Write `provenance-before-persistence`.
 - [ ] Write `stale-context-is-a-production-risk`.
 - [ ] Write `permissions-are-part-of-memory`.
 - [ ] Write `evals-for-agent-context`.

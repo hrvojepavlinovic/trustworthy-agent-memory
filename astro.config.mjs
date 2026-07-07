@@ -36,6 +36,10 @@ export default defineConfig({
               label: "Accountable context",
               slug: "core/accountable-context",
             },
+            {
+              label: "Provenance before persistence",
+              slug: "core/provenance-before-persistence",
+            },
           ],
         },
         {

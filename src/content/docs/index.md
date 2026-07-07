@@ -18,6 +18,7 @@ The problem is simple to state and hard to solve:
 - [Memory is not context](./core/memory-is-not-context.md)
 - [Which context is allowed to win?](./core/which-context-wins.md)
 - [Accountable context](./core/accountable-context.md)
+- [Provenance before persistence](./core/provenance-before-persistence.md)
 
 ## Source
 
