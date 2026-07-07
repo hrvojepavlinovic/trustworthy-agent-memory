@@ -31,6 +31,7 @@ The problem is simple to state and hard to solve:
 - [Retrieval and reranking](/concepts/retrieval-and-reranking/)
 - [Context window](/concepts/context-window/)
 - [Tool calling](/concepts/tool-calling/)
+- [Agent trace](/concepts/agent-trace/)
 
 ## Principles
 

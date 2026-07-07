@@ -90,6 +90,10 @@ export default defineConfig({
               label: "Tool calling",
               slug: "concepts/tool-calling",
             },
+            {
+              label: "Agent trace",
+              slug: "concepts/agent-trace",
+            },
           ],
         },
         {
