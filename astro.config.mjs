@@ -65,6 +65,10 @@ export default defineConfig({
               label: "Inference",
               slug: "concepts/inference",
             },
+            {
+              label: "Eval harness",
+              slug: "concepts/eval-harness",
+            },
           ],
         },
         {

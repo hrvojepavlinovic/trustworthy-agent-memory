@@ -32,6 +32,7 @@ This guide is maintained in public:
 ## Concepts
 
 - [Inference](./concepts/inference.md)
+- [Eval harness](./concepts/eval-harness.md)
 
 ## Principles
 
