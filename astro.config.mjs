@@ -14,6 +14,11 @@ export default defineConfig({
       },
       social: [
         {
+          icon: "external",
+          label: "HILLS Lab",
+          href: "https://hills-lab.hr",
+        },
+        {
           icon: "github",
           label: "GitHub",
           href: "https://github.com/hrvojepavlinovic/trustworthy-agent-memory",
