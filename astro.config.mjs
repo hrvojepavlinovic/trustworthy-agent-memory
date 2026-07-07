@@ -94,6 +94,10 @@ export default defineConfig({
               label: "Agent trace",
               slug: "concepts/agent-trace",
             },
+            {
+              label: "GraphRAG",
+              slug: "concepts/graphrag",
+            },
           ],
         },
         {

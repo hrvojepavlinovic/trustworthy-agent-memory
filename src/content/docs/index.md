@@ -32,6 +32,7 @@ The problem is simple to state and hard to solve:
 - [Context window](/concepts/context-window/)
 - [Tool calling](/concepts/tool-calling/)
 - [Agent trace](/concepts/agent-trace/)
+- [GraphRAG](/concepts/graphrag/)
 
 ## Principles
 
