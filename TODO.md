@@ -24,13 +24,14 @@
 
 ## Research
 
-- [ ] Map how Claude, ChatGPT, Cursor, Codex, and Copilot expose memory, project context, connectors, and instructions.
-- [ ] Research how popular AI providers implement context and memory systems.
+- [x] Map how Claude, ChatGPT, Cursor, Codex, and Copilot expose memory, project context, connectors, and instructions.
+- [x] Research the public context and memory surfaces of popular AI providers.
 - [ ] Research popular external memory systems, including newer database types.
 - [ ] Evaluate AI-native databases and memory stores such as HelixDB.
 - [x] Add initial HelixDB evaluation notes.
 - [x] Collect initial references on agent memory, retrieval, provenance, permissions, tool use, evals, and observability.
 - [ ] Add deeper papers and technical references.
+- [ ] Research provider memory internals where public technical material exists.
 - [ ] Track failure modes from real software workflows.
 
 ## Experiments

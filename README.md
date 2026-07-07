@@ -49,6 +49,7 @@ That includes:
 - [Memory is not context](src/content/docs/core/memory-is-not-context.md)
 - [Which context is allowed to win?](src/content/docs/core/which-context-wins.md)
 - [Accountable context](src/content/docs/core/accountable-context.md)
+- [Provider context map](src/content/docs/research/provider-context-map.md)
 
 ## Reuse
 

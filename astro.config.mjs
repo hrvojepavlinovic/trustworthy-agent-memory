@@ -99,6 +99,10 @@ export default defineConfig({
           label: "Research",
           items: [
             {
+              label: "Provider context map",
+              slug: "research/provider-context-map",
+            },
+            {
               label: "HelixDB initial notes",
               slug: "research/helixdb-initial-notes",
             },
