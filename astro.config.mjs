@@ -86,6 +86,10 @@ export default defineConfig({
               label: "Context window",
               slug: "concepts/context-window",
             },
+            {
+              label: "Tool calling",
+              slug: "concepts/tool-calling",
+            },
           ],
         },
         {
