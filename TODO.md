@@ -16,7 +16,7 @@
 - [x] Explain `eval harness` in simple terms.
 - [x] Explain `embedding` in simple terms.
 - [x] Explain `retrieval` and `reranking` in simple terms.
-- [ ] Explain `context window` in simple terms.
+- [x] Explain `context window` in simple terms.
 - [ ] Explain `tool calling` in simple terms.
 - [ ] Explain `agent trace` in simple terms.
 - [ ] Explain `GraphRAG` in simple terms.

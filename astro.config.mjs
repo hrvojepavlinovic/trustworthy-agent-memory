@@ -82,6 +82,10 @@ export default defineConfig({
               label: "Retrieval and reranking",
               slug: "concepts/retrieval-and-reranking",
             },
+            {
+              label: "Context window",
+              slug: "concepts/context-window",
+            },
           ],
         },
         {

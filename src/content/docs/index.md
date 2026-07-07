@@ -29,6 +29,7 @@ The problem is simple to state and hard to solve:
 - [Eval harness](/concepts/eval-harness/)
 - [Embedding](/concepts/embedding/)
 - [Retrieval and reranking](/concepts/retrieval-and-reranking/)
+- [Context window](/concepts/context-window/)
 
 ## Principles
 
