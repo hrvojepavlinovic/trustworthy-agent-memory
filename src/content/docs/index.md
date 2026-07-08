@@ -35,6 +35,10 @@ The problem is simple to state and hard to solve:
 - [GraphRAG](/concepts/graphrag/)
 - [Vector search vs full-text search vs graph traversal](/concepts/search-vs-traversal/)
 
+## Design
+
+- [Memory item schema](/design/memory-item-schema/)
+
 ## Research
 
 - [Provider context map](/research/provider-context-map/)

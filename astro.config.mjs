@@ -55,6 +55,15 @@ export default defineConfig({
           items: [{ label: "Authorship", slug: "about" }],
         },
         {
+          label: "Design",
+          items: [
+            {
+              label: "Memory item schema",
+              slug: "design/memory-item-schema",
+            },
+          ],
+        },
+        {
           label: "Concepts",
           items: [
             {

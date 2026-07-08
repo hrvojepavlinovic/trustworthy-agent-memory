@@ -36,7 +36,7 @@
 
 ## Experiments
 
-- [ ] Define a small memory item schema with source, scope, status, freshness, and visibility.
+- [x] Define a small memory item schema with source, scope, status, freshness, and visibility.
 - [ ] Create a manual context packet for one real repo task.
 - [ ] Compare the same agent task with and without a curated context packet.
 - [ ] Draft a memory diff format for PRs, tickets, incidents, and decisions.
