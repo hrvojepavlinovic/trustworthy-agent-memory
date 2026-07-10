@@ -109,6 +109,15 @@ export default defineConfig({
           ],
         },
         {
+          label: "Experiments",
+          items: [
+            {
+              label: "Context packet comparison",
+              slug: "experiments/context-packet-comparison",
+            },
+          ],
+        },
+        {
           label: "Research",
           items: [
             {

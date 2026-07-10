@@ -40,6 +40,10 @@ The problem is simple to state and hard to solve:
 - [Memory item schema](/design/memory-item-schema/)
 - [Manual context packet](/design/manual-context-packet/)
 
+## Experiments
+
+- [Context packet comparison](/experiments/context-packet-comparison/)
+
 ## Research
 
 - [Provider context map](/research/provider-context-map/)

@@ -35,9 +35,14 @@ evidence:
   - source: src/content/docs/concepts/inference.md
     claim: The inference page exists as a Starlight content page.
     authority: current repository source
-  - source: dist/concepts/inference/index.html
-    claim: The production build emits the page at /concepts/inference/.
-    authority: current build output
+  - source: astro.config.mjs
+    claim: The configured Starlight slug is concepts/inference.
+    authority: current repository source
+
+environment:
+  package_manager: pnpm
+  source: package.json#packageManager
+  command_availability: unknown
 
 decision:
   replace: ./concepts/inference.md
@@ -45,11 +50,11 @@ decision:
   reason: Public links must use the generated site route, not the Markdown source path.
 
 verification:
-  - pnpm format:check
-  - pnpm check
-  - pnpm build
+  - run the repository's format check
+  - run the repository's Astro check
+  - run the repository's production build
   - confirm dist/concepts/inference/index.html exists
-  - confirm homepage links contain no .md routes
+  - confirm the homepage Inference link contains no .md route
   - after deployment, request /concepts/inference/ and expect HTTP 200
 ```
 
@@ -60,6 +65,8 @@ verification:
 `scope` limits the change. The agent does not need permission to rewrite the article or reorganize routing.
 
 `evidence` separates observed facts from instructions. Each claim points to something that can be checked again.
+
+`environment` records the declared package manager without claiming that its command is available in the current shell.
 
 `decision` makes the intended route explicit. This is useful when source file paths and public URLs follow different conventions.
 
@@ -75,6 +82,6 @@ The packet is useful because it removes retrieval work without hiding the eviden
 
 ## Result
 
-The real fix changed the guide links from Markdown source paths to generated site routes. The relevant change is public in commit [`baffd67`](https://github.com/hrvojepavlinovic/trustworthy-agent-memory/commit/baffd677b6c1174b60f3cd0a0b9a6d2e5ffc3004).
+The real fix changed the guide's Markdown source links to generated site routes. The relevant change is public in commit [`baffd67`](https://github.com/hrvojepavlinovic/trustworthy-agent-memory/commit/baffd677b6c1174b60f3cd0a0b9a6d2e5ffc3004).
 
-This proves only that the packet is sufficient for this task. It does not yet prove that the packet improves agent performance. That requires running the same task with and without the packet and comparing the traces and outputs.
+The [context packet comparison](/experiments/context-packet-comparison/) found that the packet did not improve this task. Its first version mixed evidence with generated output, assumed a package-manager command was available, and used a verification rule broader than the task. Those errors were removed here.
