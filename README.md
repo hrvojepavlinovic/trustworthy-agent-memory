@@ -50,6 +50,7 @@ That includes:
 - [Which context is allowed to win?](src/content/docs/core/which-context-wins.md)
 - [Accountable context](src/content/docs/core/accountable-context.md)
 - [Memory item schema](src/content/docs/design/memory-item-schema.md)
+- [Manual context packet](src/content/docs/design/manual-context-packet.md)
 - [Provider context map](src/content/docs/research/provider-context-map.md)
 
 ## Reuse

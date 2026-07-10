@@ -61,6 +61,10 @@ export default defineConfig({
               label: "Memory item schema",
               slug: "design/memory-item-schema",
             },
+            {
+              label: "Manual context packet",
+              slug: "design/manual-context-packet",
+            },
           ],
         },
         {
