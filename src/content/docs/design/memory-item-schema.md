@@ -277,3 +277,5 @@ Store memory as a claim plus its operating constraints.
 The model can read prose.
 
 The system needs fields.
+
+Changes to accepted memory should arrive as reviewable [memory diffs](/design/memory-diff-format/), not silent overwrites.

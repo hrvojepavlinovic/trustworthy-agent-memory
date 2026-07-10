@@ -62,6 +62,10 @@ export default defineConfig({
               slug: "design/memory-item-schema",
             },
             {
+              label: "Memory diff format",
+              slug: "design/memory-diff-format",
+            },
+            {
               label: "Manual context packet",
               slug: "design/manual-context-packet",
             },

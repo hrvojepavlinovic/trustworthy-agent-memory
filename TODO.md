@@ -39,7 +39,7 @@
 - [x] Define a small memory item schema with source, scope, status, freshness, and visibility.
 - [x] Create a manual context packet for one real repo task.
 - [x] Compare the same agent task with and without a curated context packet.
-- [ ] Draft a memory diff format for PRs, tickets, incidents, and decisions.
+- [x] Draft a memory diff format for PRs, tickets, incidents, and decisions.
 - [ ] Design a permission leakage test for mixed private/team/project context.
 
 ## Open Questions

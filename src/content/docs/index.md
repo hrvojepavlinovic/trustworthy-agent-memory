@@ -38,6 +38,7 @@ The problem is simple to state and hard to solve:
 ## Design
 
 - [Memory item schema](/design/memory-item-schema/)
+- [Memory diff format](/design/memory-diff-format/)
 - [Manual context packet](/design/manual-context-packet/)
 
 ## Experiments
