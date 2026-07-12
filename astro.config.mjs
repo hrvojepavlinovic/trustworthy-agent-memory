@@ -129,6 +129,10 @@ export default defineConfig({
               slug: "research/provider-context-map",
             },
             {
+              label: "CocoIndex notes",
+              slug: "research/cocoindex-notes",
+            },
+            {
               label: "HelixDB initial notes",
               slug: "research/helixdb-initial-notes",
             },

@@ -29,6 +29,7 @@
 - [ ] Research popular external memory systems, including newer database types.
 - [ ] Evaluate AI-native databases and memory stores such as HelixDB.
 - [x] Add initial HelixDB evaluation notes.
+- [x] Evaluate CocoIndex as an incremental context pipeline.
 - [x] Collect initial references on agent memory, retrieval, provenance, permissions, tool use, evals, and observability.
 - [ ] Add deeper papers and technical references.
 - [ ] Research provider memory internals where public technical material exists.
