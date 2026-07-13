@@ -7,6 +7,8 @@ This guide is written by Hrvoje Pavlinovic as public research on trustworthy mem
 
 It is maintained through [HILLS Lab](https://hills-lab.hr), where the same ideas are applied to software teams and AI-assisted engineering workflows.
 
+[Memoato](https://memoato.com) is the applied product: raw evidence, reviewed facts, corrections and scoped recall in a working system.
+
 The canonical source is the public GitHub repo:
 
 - [hrvojepavlinovic/trustworthy-agent-memory](https://github.com/hrvojepavlinovic/trustworthy-agent-memory)

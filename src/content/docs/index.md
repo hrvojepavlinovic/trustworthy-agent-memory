@@ -75,6 +75,10 @@ That includes:
 - monitoring, Sentry issues, incidents, and deploy history
 - agent instructions such as AGENTS.md, CLAUDE.md, Cursor rules, and Codex skills
 
+## Applied work
+
+These principles are being applied in [Memoato](https://memoato.com), an open-source product that preserves raw evidence, separates reviewed facts from inferences, and exposes scoped recall through MCP.
+
 ## Authorship
 
 Written by Hrvoje Pavlinovic. Maintained through [HILLS Lab](https://hills-lab.hr).
