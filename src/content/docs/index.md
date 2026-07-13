@@ -44,6 +44,7 @@ The problem is simple to state and hard to solve:
 ## Experiments
 
 - [Context packet comparison](/experiments/context-packet-comparison/)
+- [Permission leakage test](/experiments/permission-leakage-test/)
 
 ## Research
 

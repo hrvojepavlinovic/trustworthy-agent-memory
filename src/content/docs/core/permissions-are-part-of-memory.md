@@ -126,3 +126,5 @@ Ask:
 Read access decides whether context can enter the system.
 
 Permission-aware memory decides whether that context can safely influence action.
+
+The [permission leakage test](/experiments/permission-leakage-test/) demonstrates why filtering after ranking is already too late.

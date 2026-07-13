@@ -119,6 +119,10 @@ export default defineConfig({
               label: "Context packet comparison",
               slug: "experiments/context-packet-comparison",
             },
+            {
+              label: "Permission leakage test",
+              slug: "experiments/permission-leakage-test",
+            },
           ],
         },
         {

@@ -7,6 +7,7 @@
     "build": "astro build",
     "check": "astro check",
     "dev": "astro dev",
+    "experiment:permissions": "node experiments/permission-leakage/run.mjs",
     "format:check": "prettier --check \"**/*.{css,js,json,md,ts,yml}\" --cache",
     "format:write": "prettier --write \"**/*.{css,js,json,md,ts,yml}\" --cache",
     "preview": "astro preview"

@@ -53,6 +53,7 @@ That includes:
 - [Memory diff format](src/content/docs/design/memory-diff-format.md)
 - [Manual context packet](src/content/docs/design/manual-context-packet.md)
 - [Context packet comparison](src/content/docs/experiments/context-packet-comparison.md)
+- [Permission leakage test](src/content/docs/experiments/permission-leakage-test.md)
 - [Provider context map](src/content/docs/research/provider-context-map.md)
 - [External memory systems](src/content/docs/research/external-memory-systems.md)
 - [CocoIndex research notes](src/content/docs/research/cocoindex-notes.md)
