@@ -48,6 +48,7 @@ The problem is simple to state and hard to solve:
 ## Research
 
 - [Provider context map](/research/provider-context-map/)
+- [External memory systems](/research/external-memory-systems/)
 - [CocoIndex research notes](/research/cocoindex-notes/)
 - [HelixDB initial notes](/research/helixdb-initial-notes/)
 

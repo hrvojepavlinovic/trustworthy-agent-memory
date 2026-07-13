@@ -26,7 +26,7 @@
 
 - [x] Map how Claude, ChatGPT, Cursor, Codex, and Copilot expose memory, project context, connectors, and instructions.
 - [x] Research the public context and memory surfaces of popular AI providers.
-- [ ] Research popular external memory systems, including newer database types.
+- [x] Research popular external memory systems, including newer database types.
 - [ ] Evaluate AI-native databases and memory stores such as HelixDB.
 - [x] Add initial HelixDB evaluation notes.
 - [x] Evaluate CocoIndex as an incremental context pipeline.

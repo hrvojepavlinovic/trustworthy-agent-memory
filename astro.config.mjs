@@ -129,6 +129,10 @@ export default defineConfig({
               slug: "research/provider-context-map",
             },
             {
+              label: "External memory systems",
+              slug: "research/external-memory-systems",
+            },
+            {
               label: "CocoIndex notes",
               slug: "research/cocoindex-notes",
             },
